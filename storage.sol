@@ -1,3 +1,4 @@
+pragma solidity ^0.4.21;
 contract Storage {
         uint[] x; // the data location of x is storage
 
