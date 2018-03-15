@@ -55,6 +55,7 @@ contract ArraysExercise {
         proposal = Proposal({accountToSendTokens: account,  ammountTokens: tokens});
     
         proposalUnlocked = false;
+        expextingOwnerIndex = 0;
     }
     
     function acceptProposal(bool accept) public onlyOwner rightOwnerTurn {
